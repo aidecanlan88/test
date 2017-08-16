@@ -10,7 +10,7 @@ import javax.xml.ws.Endpoint;
 public class HelloWorld {
   @WebMethod
   public String sayHelloWorldFrom(String from) {
-    String result = "Hello, world, from nihao基金基金军军1111111" + from;
+    String result = "Hello, world, 终于成功了" + from;
     System.out.println(result);
     return result;
   }
